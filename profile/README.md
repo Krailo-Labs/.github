@@ -5,7 +5,7 @@
 <h1 align="center">KRAILO Labs</h1>
 
 <p align="center">
-Engineering Research Laboratory
+<b>Autonomous Engineering Research Laboratory</b>
 </p>
 
 <p align="center">
@@ -14,9 +14,19 @@ Researching, designing and building autonomous engineering systems.
 
 ---
 
+## About
+
+KRAILO Labs is an engineering research laboratory exploring how autonomous systems can observe, reason, compose and operate complex software and infrastructure.
+
+The laboratory serves as an incubator where research evolves into independent engineering systems.
+
+Each system focuses on a different layer of autonomous computing while remaining composable with the others.
+
+---
+
 ## Current Research
 
-- Autonomous Systems
+- Autonomous Engineering Systems
 - Cognitive Runtime
 - Infrastructure Representation
 - Infrastructure Operating Systems
@@ -33,7 +43,7 @@ Researching, designing and building autonomous engineering systems.
 |---------|------|----------------|
 | **Cerebra** | Cognitive Runtime | Persistent memory, contextual reasoning and autonomous agents. |
 | **Citadel Core** | Autonomous Infrastructure Representation | Compose, represent and evolve autonomous infrastructure systems. |
-| **DeCloud Platform** | Infrastructure Operating System | Provide the distributed execution foundation for autonomous infrastructure. |
+| **DeCloud Platform** | Distributed Infrastructure Operating System | Provide the execution foundation for autonomous infrastructure. |
 
 ---
 
@@ -46,7 +56,7 @@ Researching, designing and building autonomous engineering systems.
          │                 │                 │
          ▼                 ▼                 ▼
       Cerebra        Citadel Core      DeCloud Platform
- Cognitive Runtime   Infrastructure    Infrastructure
+ Cognitive Runtime   Infrastructure    Distributed Infrastructure
                      Representation    Operating System
 ```
 
@@ -59,14 +69,44 @@ Researching, designing and building autonomous engineering systems.
 - Composable architecture
 - Distributed execution
 - Autonomous operation
+- Long-term engineering
 
 ---
 
 ## Relationship
 
-Each system addresses a different engineering domain and can evolve independently.
+Each system addresses a different engineering domain.
 
-Together they provide complementary layers for building autonomous engineering systems.
+Each system can evolve independently.
+
+Together they form a unified autonomous engineering ecosystem.
+
+---
+
+## Research Workflow
+
+Every system follows the same engineering lifecycle.
+
+```text
+Research
+    │
+    ▼
+Architecture
+    │
+    ▼
+RFC
+    │
+    ▼
+Prototype
+    │
+    ▼
+System
+    │
+    ▼
+Evolution
+```
+
+Research continuously produces new systems rather than isolated implementations.
 
 ---
 
@@ -78,6 +118,18 @@ Current public systems:
 
 - 🧠 **Cerebra** — Cognitive Runtime
 - 🏛 **Citadel Core** — Autonomous Infrastructure Representation
-- ⚙️ **DeCloud Platform** — Infrastructure Operating System
+- ⚙️ **DeCloud Platform** — Distributed Infrastructure Operating System
 
 Additional systems will emerge as research evolves.
+
+---
+
+## Philosophy
+
+Technology changes.
+
+Architecture evolves.
+
+Research never stops.
+
+KRAILO Labs exists to transform engineering research into autonomous systems.
