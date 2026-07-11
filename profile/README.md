@@ -1,36 +1,83 @@
-# KRAILO Labs
+<p align="center">
+  <img src="./assets/banner.png" alt="KRAILO Labs" width="100%">
+</p>
 
-Engineering Research Laboratory.
+<h1 align="center">KRAILO Labs</h1>
 
-KRAILO Labs researches, designs and builds autonomous engineering systems.
+<p align="center">
+Engineering Research Laboratory
+</p>
 
-The laboratory explores different layers of autonomous computing through independent but complementary systems.
+<p align="center">
+Researching, designing and building autonomous engineering systems.
+</p>
+
+---
+
+## Current Research
+
+- Autonomous Systems
+- Cognitive Runtime
+- Infrastructure Representation
+- Infrastructure Operating Systems
+- Distributed Infrastructure
+- Cloud-native Platforms
+- WebAssembly
+- Blockchain Infrastructure
+
+---
 
 ## Systems
 
-| System | Role | Purpose |
-|---------|------|---------|
-| **Cerebra** | Cognitive Runtime | A persistent cognitive runtime providing memory, contextual reasoning and autonomous agents. |
-| **Citadel Core** | Autonomous Infrastructure Representation | A unified representation for composing, managing and evolving distributed infrastructure systems. |
-| **DeCloud Platform** | Infrastructure Operating System | A distributed operating system providing the execution foundation for autonomous infrastructure. |
+| System | Role | Responsibility |
+|---------|------|----------------|
+| **Cerebra** | Cognitive Runtime | Persistent memory, contextual reasoning and autonomous agents. |
+| **Citadel Core** | Autonomous Infrastructure Representation | Compose, represent and evolve autonomous infrastructure systems. |
+| **DeCloud Platform** | Infrastructure Operating System | Provide the distributed execution foundation for autonomous infrastructure. |
+
+---
+
+## Architecture
+
+```text
+                     KRAILO Labs
+                           │
+         ┌─────────────────┼─────────────────┐
+         │                 │                 │
+         ▼                 ▼                 ▼
+      Cerebra        Citadel Core      DeCloud Platform
+ Cognitive Runtime   Infrastructure    Infrastructure
+                     Representation    Operating System
+```
+
+---
+
+## Design Principles
+
+- Independent systems
+- Clear responsibilities
+- Composable architecture
+- Distributed execution
+- Autonomous operation
+
+---
 
 ## Relationship
 
-Each system is autonomous.
+Each system addresses a different engineering domain and can evolve independently.
 
-Each system can evolve independently.
+Together they provide complementary layers for building autonomous engineering systems.
 
-Together they form a unified engineering ecosystem.
+---
 
-```text
-             KRAILO Labs
-                   │
-    ┌──────────────┼──────────────┐
-    │              │              │
-    ▼              ▼              ▼
- CEREBRA      CITADEL CORE     DECLOUD
- Cognitive     Infrastructure  Infrastructure
- Runtime       Representation  Operating System
-```
+## Research Status
 
-The systems are designed to work independently or together, depending on the requirements of a particular environment.
+KRAILO Labs is an active engineering research laboratory.
+
+Current public systems:
+
+- 🧠 **Cerebra** — Cognitive Runtime
+- 🏛 **Citadel Core** — Autonomous Infrastructure Representation
+- ⚙️ **DeCloud Platform** — Infrastructure Operating System
+
+Additional systems will emerge as research evolves.
